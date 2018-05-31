@@ -8,24 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		EF0A9A0920BE41B8003BC937 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0A9A0820BE41B8003BC937 /* AppDelegate.swift */; };
-		EF0A9A0B20BE41B8003BC937 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0A9A0A20BE41B8003BC937 /* ViewController.swift */; };
+		EF0A9A0B20BE41B8003BC937 /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0A9A0A20BE41B8003BC937 /* FeedController.swift */; };
 		EF0A9A1320BE41BB003BC937 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF0A9A1120BE41BB003BC937 /* LaunchScreen.storyboard */; };
 		EF9BBDF920BF7E85004D9410 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF9BBDF820BF7E85004D9410 /* Assets.xcassets */; };
 		EF9BBDFB20BFD2D5004D9410 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BBDFA20BFD2D5004D9410 /* FeedCell.swift */; };
 		EF9BBDFD20BFD303004D9410 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BBDFC20BFD303004D9410 /* Extensions.swift */; };
 		EF9BBDFF20BFD4C0004D9410 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BBDFE20BFD4C0004D9410 /* Posts.swift */; };
+		EF9BBE0120C000B6004D9410 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BBE0020C000B6004D9410 /* CustomTabBarController.swift */; };
+		EF9BBE0320C00704004D9410 /* FriendRequestsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BBE0220C00704004D9410 /* FriendRequestsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EF0A9A0520BE41B8003BC937 /* facebookfeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = facebookfeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF0A9A0820BE41B8003BC937 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF0A9A0A20BE41B8003BC937 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF0A9A0A20BE41B8003BC937 /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
 		EF0A9A1220BE41BB003BC937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF0A9A1420BE41BB003BC937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF9BBDF820BF7E85004D9410 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF9BBDFA20BFD2D5004D9410 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		EF9BBDFC20BFD303004D9410 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		EF9BBDFE20BFD4C0004D9410 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		EF9BBE0020C000B6004D9410 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		EF9BBE0220C00704004D9410 /* FriendRequestsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRequestsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 			isa = PBXGroup;
 			children = (
 				EF0A9A0820BE41B8003BC937 /* AppDelegate.swift */,
-				EF0A9A0A20BE41B8003BC937 /* ViewController.swift */,
+				EF0A9A0A20BE41B8003BC937 /* FeedController.swift */,
 				EF9BBDFA20BFD2D5004D9410 /* FeedCell.swift */,
 				EF9BBDFC20BFD303004D9410 /* Extensions.swift */,
 				EF9BBDFE20BFD4C0004D9410 /* Posts.swift */,
+				EF9BBE0020C000B6004D9410 /* CustomTabBarController.swift */,
+				EF9BBE0220C00704004D9410 /* FriendRequestsController.swift */,
 				EF9BBDF820BF7E85004D9410 /* Assets.xcassets */,
 				EF0A9A1120BE41BB003BC937 /* LaunchScreen.storyboard */,
 				EF0A9A1420BE41BB003BC937 /* Info.plist */,
@@ -140,11 +146,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF0A9A0B20BE41B8003BC937 /* ViewController.swift in Sources */,
+				EF0A9A0B20BE41B8003BC937 /* FeedController.swift in Sources */,
 				EF0A9A0920BE41B8003BC937 /* AppDelegate.swift in Sources */,
+				EF9BBE0120C000B6004D9410 /* CustomTabBarController.swift in Sources */,
 				EF9BBDFF20BFD4C0004D9410 /* Posts.swift in Sources */,
 				EF9BBDFB20BFD2D5004D9410 /* FeedCell.swift in Sources */,
 				EF9BBDFD20BFD303004D9410 /* Extensions.swift in Sources */,
+				EF9BBE0320C00704004D9410 /* FriendRequestsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,16 +19,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         
-        let feedController = FeedController(collectionViewLayout: UICollectionViewFlowLayout())
-        let navigationController = UINavigationController(rootViewController: feedController)
-        window?.rootViewController = navigationController
+        
+        window?.rootViewController = CustomTabBarController()
         
         UINavigationBar.appearance().barTintColor = UIColor(red: 51/255, green: 90/255, blue: 149/255, alpha: 1)
         
-//        UINavigationBar.appearance().titleTextAttributes = [kCTForegroundColorAttributeName: UIColor.white] as [NSAttributedStringKey : Any]
         UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
+        // 状态栏文字显示为白色
         application.statusBarStyle = .lightContent
 
+        // tab栏图标被选择使的颜色
+        UITabBar.appearance().tintColor = UIColor.rgb(r: 70, g: 146, b: 250)
         
         return true
     }
